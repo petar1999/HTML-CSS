@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.navigation {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(Images/bg.jpg);
+  background-size: 100% 100%;
+  padding: 2.4rem;
+}
+
+.logo {
+  width: 15rem;
+  cursor: pointer;
+}
+
+.nav-btns {
+  display: flex;
+  gap: 3.2rem;
+  list-style-type: none;
+  text-decoration: none;
+}
+.nav-btns li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.menu-img {
+  width: 2rem;
+}
+
+.navbar {
+  display: flex;
+  height: 12%;
+  width: 100%;
+  align-items: center;
+  /* gap: 32rem; */
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+h1 {
+  font-size: 7rem;
+  color: white;
+  font-weight: 700;
+}
+
+.paragraf {
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.explore {
+  color: gray;
+  padding: 0.7rem 4rem;
+  border-radius: 100rem;
+  background-color: white;
+}
+
+.explore:hover {
+  background-color: yellow;
+  transition: 0.4s;
+}
+
+.img-card {
+  height: 21rem;
+  border-radius: 10%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20rem;
+  padding: 8rem;
+}
+.text {
+  height: 15rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.2rem;
+}
+
+.img-card:hover {
+  transform: translate(0, -10px);
+}
+
+li a:hover {
+  color: yellow;
+}
